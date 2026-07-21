@@ -1,5 +1,29 @@
 # Changelog
 
+## [26.86.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v26.85.0...v26.86.0) (2026-07-21)
+
+
+### Features
+
+* **add:** _TZE200_rgeapp2c ([#12734](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12734)) ([3c8f6c9](https://github.com/Koenkk/zigbee-herdsman-converters/commit/3c8f6c9a591aa0b88996450da09be5880359c8a2))
+* **add:** 91-943-PRO-RGBCW ([#12742](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12742)) ([60617a0](https://github.com/Koenkk/zigbee-herdsman-converters/commit/60617a0d17c0fb3ffef479613c7a3bc495dfa772))
+* NodOn SDO-4-1-00:add configureReporting for ssIasZone/zoneStatus ([#12523](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12523)) ([641cf2c](https://github.com/Koenkk/zigbee-herdsman-converters/commit/641cf2c03de97b8ea348c97664815e18b0e495b6))
+* NodOn SEM-4-1-00: add energy reset, configureReporting and apparent power ([#12548](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12548)) ([f10edc6](https://github.com/Koenkk/zigbee-herdsman-converters/commit/f10edc64f0989eeaa99658630020eec2ca6d026a))
+* Shelly Presence Gen4 (S4SN-0U61X): full sensor and zone configuration ([#12733](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12733)) ([76dd299](https://github.com/Koenkk/zigbee-herdsman-converters/commit/76dd299671986caeeefe3b3513b43dc38d0fb512))
+
+
+### Bug Fixes
+
+* **detect:** Detect `_TZE284_aoah6bv8` as Moes JKD-513COM-Z ([#12741](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12741)) ([a3233b2](https://github.com/Koenkk/zigbee-herdsman-converters/commit/a3233b2835447410b4f9df41e9cf98f2cb80a3fc))
+* Fix vendor casing to prevent duplicates ([#12738](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12738)) ([866abbf](https://github.com/Koenkk/zigbee-herdsman-converters/commit/866abbf0719ea2aa3fce791fec75ce42a603e6f8))
+* **ignore:** bump zigbee-herdsman from 10.6.2 to 10.6.3 in the minor-patch group across 1 directory ([#12745](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12745)) ([fea8422](https://github.com/Koenkk/zigbee-herdsman-converters/commit/fea8422c5342f3ff5b14953c8eb025d349dd5707))
+* Improve infrared emitter description ([#12737](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12737)) ([df4f118](https://github.com/Koenkk/zigbee-herdsman-converters/commit/df4f118e29581b881dee549c20a7da3378fc9c70))
+* NodOn SIN-4-1-20/SIN-4-1-21/SIN-4-2-20: fix wired input, endpoint 242 and identify ([#12729](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12729)) ([a759fd7](https://github.com/Koenkk/zigbee-herdsman-converters/commit/a759fd78176a5f3608fb618d3c50872285cab067))
+* Shelly 2PM Gen4: switch input mode is mapped to the wrong endpoints in switch mode ([#12736](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12736)) ([e1f1501](https://github.com/Koenkk/zigbee-herdsman-converters/commit/e1f15019076f095f47f083f0a5e406b825c6e400))
+* Shelly Gen4: stop offering settings the device cannot report ([#12735](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12735)) ([b252b72](https://github.com/Koenkk/zigbee-herdsman-converters/commit/b252b729b437b05f1e92bcb8f34a5ee88fecf167))
+* Shelly Gen4: stop reading through the RPC cluster ([#12732](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12732)) ([53e8742](https://github.com/Koenkk/zigbee-herdsman-converters/commit/53e874207991a88e2c67674a779b3498d4e8a666))
+* Tuya ZY-M100-24GV3: drop bogus 0 sensitivity reads from device ([#12069](https://github.com/Koenkk/zigbee-herdsman-converters/issues/12069)) ([3f17c21](https://github.com/Koenkk/zigbee-herdsman-converters/commit/3f17c216031fde14e00706802cf6d9d128ebccfe))
+
 ## [26.85.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v26.84.0...v26.85.0) (2026-07-20)
 
 
